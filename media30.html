@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queury</title>
+    <style>
+        .box {
+
+            color: white;
+            text-align: center;
+            font-size: 23px;
+            background-color: rgb(53, 23, 23);
+            display: none;
+        }
+
+     @media(max-width:300px){
+         #box-no1{
+             display: block;
+         }
+         @media(max-width:400px){
+         #box-no4{
+             display: block;
+         }
+     }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-no1">mai aik ipone ho</div><br>
+    <div class="box" id="box-no2">mai aik tablet ho</div>
+    <div class="box" id="box-no3">mai aik laptop ho</div>
+    <div class="box" id="box-no4">mai aik PC ho</div>
+</body>
+
+</html>
